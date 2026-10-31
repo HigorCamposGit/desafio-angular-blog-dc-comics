@@ -63,4 +63,6 @@ O projeto segue os princípios de componentização e encapsulamento do Angular,
 - **Layout Responsivo**: Estruturação baseada em **Flexbox** e controle de larguras máximas para garantir que o layout se adapte perfeitamente entre dispositivos móveis e telas grandes.
 
 ---
+---
 
+🔗 Conecte-se comigo: [HigorCamposGit](https://github.com/HigorCamposGit) (Higor de Campos)
