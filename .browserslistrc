@@ -1,11 +1,11 @@
-# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.
-# For additional information regarding the format and rule options, please see:
+Este arquivo é usado pelo sistema de build para ajustar a saída de CSS e JS para dar suporte aos navegadores especificados abaixo.
+# Para informações adicionais sobre o formato e opções de regras, por favor veja:
 # https://github.com/browserslist/browserslist#queries
 
-# For the full list of supported browsers by the Angular framework, please see:
+# Para a lista completa de navegadores suportados pelo framework Angular, por favor veja:
 # https://angular.io/guide/browser-support
 
-# You can see what browsers were selected by your queries by running:
+# Você pode ver quais navegadores foram selecionados pelas suas consultas executando:
 #   npx browserslist
 
 last 1 Chrome version
