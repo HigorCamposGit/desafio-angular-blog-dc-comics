@@ -45,6 +45,25 @@ O projeto segue os princípios de componentização e encapsulamento do Angular,
 2. **Base de Componentes (Cards de Conteúdo)**:
    - **`BigCardComponent`**: Card principal em destaque (lado esquerdo) para artigos de grande importância, contendo imagem de capa em destaque, título e descrição.
    - **`SmallCardComponent`**: Cards secundários organizados em lista lateral (lado direito) com miniaturas de imagem e links dinâmicos via roteamento.
+   - **`Karma`** é um `executor de testes` (test runner) criado pela equipe do Angular para facilitar a execução automática de testes unitários em navegadores reais.
+
+No Angular, ele trabalha em conjunto com o Jasmine (que é a biblioteca onde você escreve as asserções e testes, como os arquivos .spec.ts).
+
+💡 Para que serve o Karma no projeto?.
+Abre um navegador de verdade: Ao rodar o comando ng test, o Karma inicia uma instância do navegador (geralmente o Google Chrome) em segundo plano.
+
+Executa todos os arquivos .spec.ts: Ele procura e roda automaticamente todos os testes do seu projeto Angular.
+
+Mostra os resultados em tempo real: Exibe direto no terminal (e em uma página web interativa) se os testes passaram (verdes ✅) ou falharam (vermelhos ❌).
+
+Hot Reloading / Live Reload: Se você alterar o código ou o arquivo de teste, o Karma detecta a mudança e roda os testes novamente instantaneamente sem você precisar refazer nada.
+
+⚙️ Arquivos relacionados no projeto
+Quando você cria um projeto Angular tradicional, pode reparar em alguns arquivos relacionados a ele:
+
+`karma.conf.js`: Arquivo de configuração onde você define quais navegadores usar, quais relatórios gerar, portas de rede, etc.
+
+`src/test.ts`: Arquivo de inicialização que o Karma usa para carregar todo o ambiente do Angular e localizar os arquivos `.spec.ts`.
 
 ---
 
