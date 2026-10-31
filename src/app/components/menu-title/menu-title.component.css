@@ -1,17 +1,68 @@
-.container__menu-title{
-  color: white;
-}
-
-.container__menu-title > h1{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
-  font-family: 'Open Sans', sans-serif;
+.container__menu-title {
+  color: white !important;
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 20px;
+  background-color: transparent !important;
 }
 
-.container__menu-title > hr{
-  margin-top: 20px;
-  margin-bottom: 5px;
+.menu-title__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #1e3a8a;
+  border-radius: 12px;
+  padding: 20px 45px;
+  background-color: #0b1329 !important;
+  box-shadow: 0 0 25px rgba(30, 58, 138, 0.4), inset 0 0 15px rgba(30, 58, 138, 0.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.menu-title__content:hover {
+  transform: translateY(-4px);
+  border-color: #3b82f6;
+  box-shadow: 0 0 35px rgba(59, 130, 246, 0.7), inset 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+.menu-title__content *, 
+.menu-title__content h1, 
+.menu-title__content h2 {
+  background-color: transparent !important;
+}
+
+.container__menu-title > .menu-title__content > h1 {
+  margin: 0;
+  font-size: 48px; /* Reduzido de 80px para 48px para ficar mais equilibrado */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  color: #ffffff !important;
+}
+
+.container__menu-title > .menu-title__content > h2 {
+  margin: 6px 0 0 0;
+  font-size: 16px; /* Ajustado proporcionalmente */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #a8b2d1 !important;
+  letter-spacing: 1.5px;
+}
+
+.container__menu-title > hr {
+  flex: 1;
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: rgba(59, 130, 246, 0.3);
 }
