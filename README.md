@@ -13,18 +13,18 @@ Todo o design visual e a estrutura inicial serviram como base para os meus estud
 
 ## 🚀 Tecnologias e Ferramentas Utilizadas
 
-- **Angular** (Componentes, Roteamento e Arquitetura SPA)
-- **HTML5** (Marcação semântica)
-- **CSS3** (Flexbox, Grid, Variáveis, Transições e Efeitos Neon)
-- **TypeScript** (Lógica dos componentes)
-- **Google Fonts** (Tipografia *Open Sans*)
-- **Git & GitHub** (Controle de versão e publicação)
+- **Angular** (Componentes, Roteamento e Arquitetura SPA).
+- **HTML5** (Marcação semântica).
+- **CSS3** (Flexbox, Grid, Variáveis, Transições e Efeitos Neon).
+- **TypeScript** (Lógica dos componentes).
+- **Google Fonts** (Tipografia *Open Sans*).
+- **Git & GitHub** (Controle de versão e publicação).
 
 ---
 
 ## 🎨 Identidade Visual & Paleta de Cores
 
-O projeto foi construído do zero com foco em uma experiência visual imersiva e limpa, eliminando artefatos visuais (como fundos pretos indesejados e marcadores de lista) e aplicando o seguinte padrão de cores:
+O projeto foi construído com  base no repo fornecido e pelas aulas com foco em uma experiência visual imersiva e limpa, eliminando artefatos visuais.
 
 - **Fundo Geral (`body`)**: `#050814` (Azul noturno profundo e imersivo)
 - **Fundo dos Cards (`.container`)**: `#0b1329` (Azul escuro em camadas)
@@ -59,6 +59,8 @@ O projeto segue os princípios de componentização e encapsulamento do Angular,
 ## 🛠️ Técnicas e Desafios Resolvidos
 
 - **Isolamento de Estilos no Angular (Shadow DOM / Encapsulamento)**: Utilização bem-sucedida de seletores específicos e escopos isolados para evitar heranças indesejadas de cores e fundos vindos do navegador ou resets globais.
-- **Remoção de Artefatos de Lista**: Limpeza rigorosa de marcadores (`list-style: none`) em tags estruturais para garantir o alinhamento visual perfeito dos small cards.
 - **Efeitos de Transição e Hover**: Implementação de elevação suave (`transform: translateY`) combinada com sombras de neon dinâmicas (`box-shadow`) para interatividade ao passar o mouse.
 - **Layout Responsivo**: Estruturação baseada em **Flexbox** e controle de larguras máximas para garantir que o layout se adapte perfeitamente entre dispositivos móveis e telas grandes.
+
+---
+
