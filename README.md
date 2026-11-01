@@ -82,6 +82,5 @@ Quando você cria um projeto Angular tradicional, pode reparar em alguns arquivo
 - **Layout Responsivo**: Estruturação baseada em **Flexbox** e controle de larguras máximas para garantir que o layout se adapte perfeitamente entre dispositivos móveis e telas grandes.
 
 ---
----
 
 🔗 Conecte-se comigo: [HigorCamposGit](https://github.com/HigorCamposGit) (Higor de Campos)
